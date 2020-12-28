@@ -10,7 +10,7 @@ services:
   graphql-engine:
     image: hasura/graphql-engine:v1.3.3
     ports:
-      - "8080:8080"
+      - "8080:$HASURA_GRAPHQL_PORT"
     depends_on:
       - "postgres"
     restart: always
