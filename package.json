@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "console": "cd hasura && hasura console",
-    "migrate": "cd hasura && hasura migrate apply",
+    "migrate": "cd hasura && hasura migrate",
     "metadata": "cd hasura && hasura metadata apply",
     "seeds": "cd hasura && hasura seeds apply"
   },
