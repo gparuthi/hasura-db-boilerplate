@@ -1,0 +1,14 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "console": "cd hasura && hasura console",
+    "migrate": "cd hasura && hasura migrate apply",
+    "metadata": "cd hasura && hasura metadata apply",
+    "seeds": "cd hasura && hasura seeds apply"
+  },
+  "dependencies": {
+    "hasura-cli": "^1.3.3"
+  }
+}
