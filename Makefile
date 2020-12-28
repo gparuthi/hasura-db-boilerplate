@@ -1,5 +1,5 @@
 db:
 	docker-compose down --remove-orphans
 	docker-compose up -d
-	yarn migrate
-	yarn metadata
+	yarn hasura migrate apply
+	yarn hasura metadata apply
